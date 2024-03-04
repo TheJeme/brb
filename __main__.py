@@ -5,9 +5,9 @@ import datetime
 import sys
 
 def main():
-  time, message = set_time()
   pygame.mixer.init()
   pygame.mixer.music.load("alarm.wav")
+  time, message = set_time()
 
   while datetime.datetime.now().strftime("%H:%M") != time:
     continue
