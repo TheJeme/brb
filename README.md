@@ -3,12 +3,12 @@ cli app alarm clock
 
 ## Usage
 ```bash
-brb <HH:MM> 
+brb <time> <message> 
 ```
 
 ## Example
 ```bash
-brb 10:45
+brb 10:45 "Time to go to the meeting"
 ```
 
 ## Build
